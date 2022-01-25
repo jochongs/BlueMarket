@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.954" height="32.058" viewBox="0 0 27.954 32.058">
+    <g data-name="그룹 41">
+        <g data-name="타원 3" transform="rotate(-35.02 17.27 5.446)" style="stroke:#7f7f7f;fill:#fff;stroke-width:3px">
+            <circle cx="9.501" cy="9.501" r="9.501" style="stroke:none"/>
+            <circle cx="9.501" cy="9.501" r="8.001" style="fill:none"/>
+        </g>
+        <g data-name="사각형 8" transform="rotate(-35.02 40.482 -14.826)" style="fill:#7f7f7f;stroke:#7f7f7f">
+            <rect width="4.957" height="14.045" rx="2.479" style="stroke:none"/>
+            <rect x=".5" y=".5" width="3.957" height="13.045" rx="1.979" style="fill:none"/>
+        </g>
+    </g>
+</svg>

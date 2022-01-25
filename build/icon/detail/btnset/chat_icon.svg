@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19">
+    <defs>
+        <style>
+            .cls-2{fill:#a7acff;stroke:#a8acff}.cls-3{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="그룹_36" data-name="그룹 36" transform="translate(-1404 -485)">
+        <g id="합치기_4" data-name="합치기 4" style="fill:#fff">
+            <path class="cls-3" d="m17.559 17.467-4.08-3.933-.144-.14H4c-1.93 0-3.5-1.57-3.5-3.5V4C.5 2.07 2.07.5 4 .5h13c1.93 0 3.5 1.57 3.5 3.5v5.894a3.502 3.502 0 0 1-3.29 3.494l-.591.035.134.577.806 3.467z" transform="translate(1404 485)"/>
+            <path d="m16.69 15.934-.692-2.975 1.183-.07A3.002 3.002 0 0 0 20 9.894V4c0-1.654-1.346-3-3-3H4C2.346 1 1 2.346 1 4v5.894c0 1.654 1.346 3 3 3h9.536l3.153 3.04M18.43 19l-5.296-5.106H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h13a4 4 0 0 1 4 4v5.894a4 4 0 0 1-3.76 3.993L18.428 19z" style="fill:#7f7f7f;stroke:none" transform="translate(1404 485)"/>
+        </g>
+        <g id="타원_37" data-name="타원 37" class="cls-2" transform="translate(1408.565 490.792)">
+            <circle class="cls-3" cx="1.37" cy="1.37" r="1.37"/>
+            <circle class="cls-5" cx="1.37" cy="1.37" r=".87"/>
+        </g>
+        <g id="타원_38" data-name="타원 38" class="cls-2" transform="translate(1413.13 490.792)">
+            <circle class="cls-3" cx="1.37" cy="1.37" r="1.37"/>
+            <circle class="cls-5" cx="1.37" cy="1.37" r=".87"/>
+        </g>
+        <g id="타원_39" data-name="타원 39" class="cls-2" transform="translate(1417.695 490.792)">
+            <circle class="cls-3" cx="1.37" cy="1.37" r="1.37"/>
+            <circle class="cls-5" cx="1.37" cy="1.37" r=".87"/>
+        </g>
+    </g>
+</svg>
