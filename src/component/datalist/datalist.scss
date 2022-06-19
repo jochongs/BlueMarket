@@ -1,0 +1,16 @@
+.datalist_container{
+    width: 510px;
+    height: 52px;
+    position: relative;
+    margin-top: 20px;
+    input{
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: none;
+        padding-left: 26px;
+        border: solid 2px #707070;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+}

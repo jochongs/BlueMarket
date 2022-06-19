@@ -1,0 +1,20 @@
+.hash_tag_container{
+    display: flex;
+    width: 1134px;
+    padding-bottom: 84px;
+    .hash_tag{
+        height: 82px;
+        margin-right: 10px; //수치가 정확하지 않음
+        p{
+            color: #3e3eff;
+            font-size: 20px;
+            font-weight: 300;
+            margin: 40px 0 0;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+        }
+    }
+}

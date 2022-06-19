@@ -1,0 +1,23 @@
+.selectbox_container{
+    position: relative;
+    select{
+        width: 336px;
+        height: 52px;
+        font-size: 18px;
+        padding-left: 20px;
+        appearance: none;
+        &:focus{
+            outline: none;
+        }
+    }
+    .selectbox-icon_container{
+        position: absolute;
+        width: 36px;
+        height: 21px;
+        z-index: 5;   
+        right: 0%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 16px; 
+    }
+}

@@ -1,0 +1,55 @@
+.detail_btnset_container{
+    display: flex;
+    width: 702px;
+    justify-content: space-between;
+    margin-top: 22px;
+    &>div{
+        button{
+            width: 226px;
+            height: 62px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            .button-content{
+                font-size: 20px;
+                margin-left : 8px;
+                font-weight: 500;
+            }
+        }
+        .buy_button{
+            background-color: #3e3eff;
+            .button-content{
+                color: white;
+            }
+        }
+        .chat_button{
+            background-color: #a8acff;
+            img{
+                width: 31px;
+                transform: translateY(2px);
+            }
+            .button-content{
+                color: #3d44f5;
+            }
+        }
+        .select_product_button{
+            background: none;
+            border: 1px solid #3e3eff;
+            .button-content{
+                color: #3d44f5;
+                
+                margin: 0 4px;
+                line-height: normal;
+            }
+            .button-content-sub{
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 1.33;  
+                color: #7f7f7f;
+                margin: 4px 0 2px 4px;
+            }
+        }
+    }
+}

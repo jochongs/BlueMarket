@@ -1,0 +1,161 @@
+.nav_container{
+    .nav{
+        &>div{
+            border-bottom: 1px solid #707070;
+            margin: 0 auto;
+            &>div{
+                width: 1200px;
+                height: 100%;
+                margin: 0 auto;
+            }
+        }
+        .nav-top_container{
+            height: 52px;
+            .nav-top{
+                display: flex;
+                justify-content: flex-end;
+                button{
+                    border: none;
+                    font-size: 15px;
+                    padding: 0%;
+                    margin-top: 15px;
+                    color: #7f7f7f;
+                    background:none;
+                    cursor: pointer;
+                    font-weight: middle;
+                    user-select: none;
+                }
+                .nav-top-login_container{
+                    button{
+                        margin-right: 20px;
+                    }
+                }
+                .nav-top-proudct_interest_container{
+                    button{
+                        margin-right: 18px;
+                    }
+                }
+            }
+        }
+        .nav-center_container{
+            height: 150px;
+            .nav-center{
+                display: flex;
+                align-items: center;
+                .nav-center-title_container{
+                    margin-left: 18px;
+                    cursor: pointer;
+                    .nav-center-title{
+                        color: #3e3eff;
+                        font-weight: bold;
+                        font-size: 50px;
+                        pointer-events: none;
+                    }
+                }
+                .nav-center-search_input_container{
+                    border: 4px solid #3e3eff;
+                    margin-left: 30px;
+                    display: flex;
+                    align-items: center;
+                    width: 492px;
+                    height: 60px;
+                    position: relative;
+                    input{
+                        box-sizing: border-box;
+                        font-size: 20px;
+                        height: 100%;
+                        width: 90%;
+                        padding-left: 10px;
+                        border: none;
+                        background-color: none; 
+                        &:focus{
+                            outline: none;
+                        }
+                        &::placeholder{
+                            font-size: 20px;
+                            vertical-align: center;
+                        }
+                    }
+                    .nav-center-search_input-icon_container{
+                        position: absolute;
+                        right: 14px;
+                        img{
+                            width: 30px //search_input_icon 크기
+                        }
+                    }
+                }
+                .nav-center-category_container{
+                    display: flex;
+                    a{
+                        img{
+                            width: 35px;
+                            margin-right: 7px;
+                            margin-left: 34px;
+                        }
+                        &>div{
+                            display: flex;
+                            p{ //nav-center 판매하기/마이페이지/채팅하기 글씨
+                                font-weight: bold;
+                                color : #7f7f7f;
+                                font-size: 20px;
+                                transition: color;
+                                transition-duration: 300ms;
+                                &:hover{
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nav-bottom_container{
+            height: 50px; //nav-bottom 높이
+            .nav-bottom{
+                display: flex;
+                align-items: center;
+                &>div{
+                    &>div{
+                        display: inline-block;
+                    }
+                }
+                .nav-bottom-menu-icon_container{
+                    display: flex;
+                    cursor: pointer;
+                    align-items: center;
+                    margin-left: 10px; //메뉴아이콘 왼쪽 마진 값 **
+                    img{
+                        width: 20px; //메뉴아이콘 크기**
+                    }
+                }
+                p{
+                    font-size: 15px; //nav-bottom p태그 폰트
+                    color: #7f7f7f;
+                }
+                .nav-bottom-popular_item_container{
+                    .nav-bottom-popular_item-title_container{
+                        margin-left: 30px; //인기상품 왼쪽 마진값 
+                        .nav-bottom-popular_item-title{
+                            font-weight: bold; //인기상품 폰트 굵기
+                        }
+                    }
+                    .nav-bottom-popular_item-content_container{
+                        margin-left: 15px; //아이패드 왼쪽 마진
+                    }
+                }
+                .nav-bottom-nearby_area_product_container{
+                    .nav-bottom-nearby_area_product_title_container{
+                        margin-left: 48px; //지역근처 왼쪽 마진값 (디자인 : 47px)
+                        .nav-bottom-nearby_area_product_title{
+                            font-weight: bold; //지역근처 폰트 굵기
+                        }
+                    }   
+                    .nav-bottom-nearby_area-content_container{
+                        margin-left : 15px; //퀵보드 왼쪽 마진값
+                     }
+                }
+            }
+        }
+    }
+    
+}

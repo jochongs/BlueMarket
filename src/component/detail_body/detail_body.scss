@@ -1,0 +1,43 @@
+.detail_body_conatiner{
+    margin: 56px auto;
+    width: 1190px;
+    position: relative;
+    .detail_body_menu_container{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #3e3eff;
+        width: 1190px;
+        &>div{
+            cursor: pointer;
+            width: 396px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 62px;
+            box-sizing: content-box;
+            p{
+                font-size: 25px;
+                font-weight: 500;
+            }
+        }
+        .product_info_title_container{
+        }
+        .trading_info_title_container{
+            border-right: 1px solid #3e3eff;
+            border-left: 1px solid #3e3eff;
+        }
+        .seller_info_title_container{
+
+        }
+    }
+    .detail_info{
+        border: 1px solid #7f7f7f;
+        display: flex;
+        flex-direction: column;
+        border-top: none;
+        width: 1190px;
+        &>div{
+            margin: 0 auto;
+        }
+    }
+}

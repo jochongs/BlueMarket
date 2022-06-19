@@ -1,0 +1,34 @@
+.sidebar_container{
+    width: 195px;
+    height: 693px;
+    display: flex; 
+    border: solid 1px #7f7f7f;
+    border-top: none;
+    top: 252px;
+    position: absolute;
+    transform: translateX(-110%);
+
+    padding-top: 8px;
+    .sidebar{
+        margin-left: 21px;
+        .categoryItem_container{
+            margin-top: 14px;
+            p{
+                color: #7f7f7f; 
+                line-height: 20px;
+                font-size: 15px;
+                text-align: left;
+                font-weight: bold;
+                cursor: pointer;
+
+                transition: color;
+                transition-duration: 200ms;
+                &:hover{ //카테고리 호버
+                    color: black;
+                }
+            }
+            
+        }
+    }
+    
+}

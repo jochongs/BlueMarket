@@ -1,0 +1,13 @@
+.main_circle_container{
+    display: flex;
+    width: 1048px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 60px;
+    .main_circle-circle{
+        width: 162px;
+        height: 162px;
+        border-radius: 100%;
+        border: solid 1px #707070;
+    }
+}

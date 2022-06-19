@@ -1,0 +1,18 @@
+.main_market{
+    margin-top: 76px;
+    .main_market-title_container{
+        margin-bottom: 22px;
+        .main_market-title{
+            font-size: 30px;
+            font-weight: bold;
+            color: #7f7f7f;
+        }
+    }
+    .main_market-products_line_container{
+        display: flex;
+        margin: 0 auto;
+        width: 1188px;
+        justify-content: space-between;
+        margin-bottom: 52px;
+    }
+}

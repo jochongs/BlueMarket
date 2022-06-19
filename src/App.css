@@ -1,0 +1,47 @@
+body{
+  margin: 0%;
+  min-width: 1420px;
+}
+body div{
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  min-width: 1200px;
+  position: relative;
+}
+textarea{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+button{
+  font-family: 'Noto Sans KR', sans-serif;
+  cursor: pointer;
+}
+p{
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0%;
+  padding: 0;
+}
+div , button{
+  font-family: 'Noto Sans KR', sans-serif;
+}x
+button{
+  cursor: pointer;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+a:link{
+  color: unset;
+  text-decoration: none;
+}
+
+main{
+  width: 1200px;
+  margin: 0% auto;
+  position: relative;
+  display: flex;
+}
+

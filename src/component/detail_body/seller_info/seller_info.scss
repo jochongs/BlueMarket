@@ -1,0 +1,26 @@
+.seller_info_container{
+    padding-top: 50px;
+    padding-right: 64px;
+    padding-left: 64px;
+    padding-bottom: 92px;
+    width: 1190px;
+    min-height: 1089px;
+    .seller_info{
+        display: flex;
+        justify-content: flex-start;
+        p{
+            font-size: 25px;
+        }
+        .seller_info-data_containe{
+            p{
+                font-weight: 300;
+            }
+        }
+        .seller_info-title_container{
+            p{
+                font-weight: 500;
+            }
+        }
+        
+    }
+}

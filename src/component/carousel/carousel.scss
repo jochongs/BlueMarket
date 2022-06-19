@@ -1,0 +1,82 @@
+.carousel_container{
+    position: relative;
+    margin-top: 44px;
+    .carousel{
+        width: 1200px; //캐러셀 크기
+        height: 320px;
+        
+        &>div{
+            width: 702px;
+            height: 320px;
+            border-radius: 29px;
+            position: absolute;
+            overflow: hidden;
+            img{
+                height: 320px;
+            }
+            transition: transform,right,left,filter;
+            transition-duration: 300ms;
+        }
+        .carousel-left-hidden{
+            left : 0%;
+            transform: translateX(0) scale(0%);
+            
+            filter: brightness(50%) blur(2px);
+        }
+        .carousel-left{
+            z-index: 1;
+            left : 0%;
+            transform: translateX(0%) scale(90%);
+
+            filter: brightness(50%) blur(2px);
+        }
+        .carousel-center-left{
+            z-index: 2;
+            
+            right: 50%;
+            transform: translateX(50%) scale(100%);
+            
+            filter: brightness(100%) blur(0px);
+        }
+        .carousel-center-right{
+            z-index: 2;
+
+            left : 50%;
+            transform: translateX(-50%) scale(100%); 
+
+            filter: brightness(100%) blur(0px);
+        }
+        .carousel-right{
+            z-index: 1;
+            right: 0%;
+            transform: translateX(0) scale(90%);
+
+            filter: brightness(50%) blur(2px);
+        }
+        .carousel-right-hidden{
+            right: 0%;
+            transform: translateX(0) scale(0%);
+
+            filter: brightness(50%) blur(2px);
+        }
+    }
+    .carousel-button{
+        width: 65px;
+        height: 65px;
+        position: absolute;
+        z-index: 3;
+        border-radius: 100%;
+        top: 50%;
+        transform: translate(0,-50%);
+        img{
+            width: 66px;
+            height: 66px;
+        }
+    }
+    .carousel-button-left{
+        left: 214px;
+    }
+    .carousel-button-right{
+        right: 214px;
+    }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.474" height="33.653" viewBox="0 0 38.474 33.653">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-4{fill:none}.cls-1,.cls-2{stroke:#fff}.cls-1{stroke-linecap:round;stroke-width:1.5px}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_14" data-name="그룹 14" transform="translate(-1317.238 -740.724)">
+        <path id="패스_1" data-name="패스 1" class="cls-1" d="M1317.988 741.474h6.31l6.662 24.071h20.293l3.563-15.849"/>
+        <g id="타원_1" data-name="타원 1" class="cls-1" transform="translate(1331.82 767.673)">
+            <circle class="cls-3" cx="3.352" cy="3.352" r="3.352"/>
+            <circle class="cls-4" cx="3.352" cy="3.352" r="2.602"/>
+        </g>
+        <g id="타원_2" data-name="타원 2" class="cls-1" transform="translate(1344.391 767.673)">
+            <circle class="cls-3" cx="3.352" cy="3.352" r="3.352"/>
+            <circle class="cls-4" cx="3.352" cy="3.352" r="2.602"/>
+        </g>
+        <path id="선_16" data-name="선 16" class="cls-2" transform="translate(1327.488 750.974)" d="M0 0h27"/>
+        <path id="선_17" data-name="선 17" class="cls-2" transform="translate(1328.488 755.974)" d="M0 0h25"/>
+        <path id="선_19" data-name="선 19" class="cls-2" transform="translate(1329.488 760.974)" d="M0 0h23"/>
+        <path id="패스_11" data-name="패스 11" class="cls-2" d="M1340.988 765.741v-14.83"/>
+        <path id="패스_12" data-name="패스 12" class="cls-2" d="m1338.333 765.545-1.622-14.781" transform="translate(-.419 .065)"/>
+        <path id="패스_13" data-name="패스 13" class="cls-2" d="m1335.4 765.545-3.4-14.752" transform="translate(-.642 .036)"/>
+        <path id="패스_14" data-name="패스 14" class="cls-2" d="m1344.062 765.545 1.73-14.7" transform="translate(0 .026)"/>
+        <path id="패스_15" data-name="패스 15" class="cls-2" d="m1347.742 765.414 3.087-14.548" transform="translate(-.444 .196)"/>
+    </g>
+</svg>

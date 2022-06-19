@@ -1,0 +1,125 @@
+.login_page_container{
+    .login-wrap{
+        .login_container{
+            margin: 0 auto;
+            width: 1200px;
+            margin-top: 102px;
+            .login{
+                margin: 0 auto;
+                width: 1180px;
+                height: 548px;
+                border: 2px solid #707070;
+                border-radius: 36px;
+                position: relative;
+                display: flex;
+                overflow: hidden;
+                .login-left{
+                    border-right: 2px solid grey;
+                    background-color: #a8acff;
+                    border-radius: 0 36px 36px 0px;
+                    width: 590px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h1{
+                        margin-top: 180px;
+                        font-size: 50px;
+                        color: #3e3eff;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        margin: 0%;
+                        color: white;
+                        font-weight: 500;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+                .login-right{
+                    width: 600px;
+                    display: flex;
+                    flex-direction: column; 
+                    align-items: center;
+                    margin-top: 116px;
+                    .login-right-title_container{
+                        h1{
+                            margin: 0%;
+                            font-size: 35px;
+                            color: #3e3eff;
+                            font-weight: bold;
+                        }
+                    }
+                    .login-right-input_container{
+                        margin-top: 36px;
+                        &>div{
+                            width: 447px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            &>div{
+                                width: 385px;
+                                height: 49px;
+                                border-radius: 25px;
+                                border: 2px solid grey;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                            }
+                            input{
+                                margin-left: 20px;
+                                width: 100%;
+                                background: none;
+                                border: none;
+                                &:focus{
+                                    outline: none;
+                                }
+                                font-size: 20px;
+                            }
+                        }
+                        .login-right-input-id_container{
+                            margin-bottom: 22px;
+                            img{
+                                width: 42px;
+                            }
+                            input{
+                            }
+                        }
+                        .login-right-input-pw-id_container{
+                            margin-bottom: 20px;
+                            img{
+                                width: 30px;
+                                margin: 0 6px;
+                            }
+                            input{
+                            }
+                        }
+                    }
+                    .login-right-sub_container{
+                        display: flex;
+                        justify-content: center;
+                        p{
+                            color: #7f7f7f;
+                            margin-right: 34px;
+                            cursor: pointer;
+                        }
+                    }
+                    .login-right-btn-container{
+                        margin-top: 20px;
+                        button{
+                            font-size: 20px;
+                            font-weight: 500;
+                            color: white;
+                            background: #a8acff;
+                            border-radius: 25px;
+                            width: 113px; 
+                            height: 43px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

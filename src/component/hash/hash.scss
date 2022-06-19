@@ -1,0 +1,40 @@
+.hash_group_container{
+    display: flex;
+    position: relative;
+    &>div{  
+        margin-right: 40px;
+        height: 30px;
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 120px;
+        padding: 0% 10px;
+        border-radius: 100px;
+        background-color:rgba($color: #3e3eff, $alpha: 0.5);
+    }
+    button{
+        background: none; 
+        border: none;
+        position: absolute;
+        color: white;
+        font-weight:bold;
+        cursor : pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        z-index: 3;
+        right: 0%;
+        margin-right: 10px;
+    }
+    .hash-p_container{
+        height: 100%;
+        #register_hash{
+            font-size:18px;
+            padding-right: 16px;
+            color: white;
+        }
+    }
+    
+}

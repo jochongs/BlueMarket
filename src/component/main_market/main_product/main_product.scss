@@ -1,0 +1,38 @@
+.main_product_container{
+    display: inline-block;
+    cursor: pointer;
+    .main_product-img_container{
+        width: 228px; //228px 일수도있음
+        height: 228px; //228px 일수도있음
+        background-color: grey; 
+        border: 1px solid #707070;
+    }
+    .main_product-name_container{
+        width: 228px;
+        margin-top: 10px;
+        .main_product-name{
+            font-size: 20px;
+            font-weight: 500;
+            color: #7f7f7f;
+        }
+    }
+    .main_product-info_container{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        .main_product-info-price{
+            font-size: 20px;
+            color: #7f7f7f;
+            font-weight: bold;
+        }
+        .main_product-info-time_container{
+            margin-bottom: 2px; //디자인 물어보자잉
+            .main_product-info-time{
+                font-size: 15px;
+                color: #7f7f7f;
+                
+            }
+        }
+    }
+}
